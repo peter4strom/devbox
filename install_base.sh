@@ -4,7 +4,7 @@ apt-get update --yes
 
 apt-get install --yes \
 	bmon \
-	build-essentials \
+	build-essential \
 	colordiff \
 	colorgcc \
 	colormake \
