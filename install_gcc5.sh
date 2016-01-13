@@ -26,6 +26,6 @@ $srcdir/configure \
 	--with-gnu-ld \
 	--disable-nls
 
-make 
+make
 make -k check-c++
 make install
