@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e 
 
-version=5.2.0
+version=5.3.0
 url="ftp://ftp.fu-berlin.de/unix/languages/gcc/releases/gcc-${version}/gcc-${version}.tar.bz2"
 
 apt-get install libmpfr-dev libmpc-dev
