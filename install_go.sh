@@ -8,6 +8,11 @@ mkdir -p $dstdir
 curl -L "https://storage.googleapis.com/golang/go${version}.linux-amd64.tar.gz" \
 	| tar xzC $dstdir --strip-components=1
 
-echo 'export GOROOT=$dstdir' >> ~/.bash_profile
-echo 'export PATH=$PATH:$GOROOT/bin' >> ~/.bash_profile
-echo 'export GOPATH=$HOME/projects/go' >> ~/.bash_profile
+
+cat <<- EOFX
+	cat << EOF >> ~/.bash_profile
+	export GOROOT=$dstdir
+	export PATH=\$PATH:\$GOROOT/bin
+	export GOPATH=\$HOME/projects/go
+	EOF
+EOFX
