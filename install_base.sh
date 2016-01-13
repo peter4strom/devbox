@@ -9,6 +9,7 @@ apt-get install --yes \
 	colorgcc \
 	colormake \
 	colortail \
+	curl \
 	git-all \
 	git-cola \
 	git-extras \
