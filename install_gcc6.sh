@@ -6,7 +6,7 @@ version=6
 stem=gcc-${version}-${snapshot_date}
 tarball=${stem}.tar.bz2
 url="ftp://ftp.gwdg.de/pub/misc/gcc/snapshots/LATEST-${version}/$tarball"
-apt-get install libmpfr-dev libmpc-dev
+apt-get install libmpfr-dev libmpc-dev flex
 
 downloaddir=$(xdg-user-dir DOWNLOAD)
 downloadfile=$downloaddir/$tarball
