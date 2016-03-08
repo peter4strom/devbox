@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-version=3.7.1
+version=3.8.0
 
 wget -N "http://llvm.org/releases/${version}/llvm-${version}.src.tar.xz"
 wget -N "http://llvm.org/releases/${version}/cfe-${version}.src.tar.xz"
