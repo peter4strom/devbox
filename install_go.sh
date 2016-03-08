@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-version=1.5.2
+version=1.6
 dstdir=/opt/go-$version
 
 mkdir -p $dstdir
