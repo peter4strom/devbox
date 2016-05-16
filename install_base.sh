@@ -10,6 +10,7 @@ apt-get install --yes \
 	colormake \
 	colortail \
 	curl \
+	fish \
 	git-all \
 	git-cola \
 	git-extras \
@@ -26,4 +27,3 @@ apt-get install --yes \
 	tmux \
 	tshark \
 	wget
-	
