@@ -1,12 +1,11 @@
 #!/bin/bash
 set -e
 
-snapshot_date=20160306
-version=6
+version=6.1.0
 stem=gcc-${version}-${snapshot_date}
 tarball=${stem}.tar.bz2
-url="ftp://ftp.gwdg.de/pub/misc/gcc/snapshots/LATEST-${version}/$tarball"
-apt-get install libmpfr-dev libmpc-dev flex
+url="ftp://ftp.fu-berlin.de/unix/languages/gcc/releases/gcc-${version}/$tarball"
+apt-get install libmpfr-dev libmpc-dev
 
 downloaddir=$(xdg-user-dir DOWNLOAD)
 downloadfile=$downloaddir/$tarball
