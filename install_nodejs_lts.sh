@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-version=5.7.1
+version=4.4.4
 dstdir=/opt/nodejs-$version
 
 mkdir -p $dstdir
